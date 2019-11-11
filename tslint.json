@@ -1,0 +1,47 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "no-shadowed-variable": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "interface-over-type-literal": false,
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "object-literal-sort-keys": [
+      false
+    ],
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "max-classes-per-file": false,
+    "max-line-length": false,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "no-console": false
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "themes/**/*",
+      "watch.js",
+      "cypress/**/*"
+    ]
+  }
+}

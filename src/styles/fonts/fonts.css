@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'BogleWeb-Regular';
+  src: url('./BogleWeb-Regular.woff2') format('woff2'), url('./BogleWeb-Regular.woff') format('woff'), url('./BogleWeb-Regular.eot') format('embedded-opentype'), url('./BogleWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BogleWeb-Bold';
+  src: url('./BogleWeb-Bold.woff2') format('woff2'), url('./BogleWeb-Bold.woff') format('woff'), url('./BogleWeb-Bold.eot') format('embedded-opentype'), url('./BogleWeb-Bold.ttf') format('truetype');
+}
